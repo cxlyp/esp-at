@@ -501,3 +501,4 @@ if __name__ == '__main__':
     except Exception as e:
         ESP_LOGE('A fatal error occurred: {}'.format(e))
         sys.exit(2)
+menuconfig > Component config > AT > AT WEB Server command support > AT WEB captive portal support
