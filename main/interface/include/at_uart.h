@@ -40,7 +40,7 @@
 
 #if defined(CONFIG_IDF_TARGET_ESP32C2)
 #define AT_UART_RX_BUFFER_SIZE                      4096                    /**< uart rx buffer size */
-#define AT_UART_TX_BUFFER_SIZE                      4096                    /**< uart tx buffer size */
+#define AT_UART_TX_BUFFER_SIZE                      2048                    /**< uart tx buffer size */
 #define AT_UART_QUEUE_SIZE                          15                      /**< uart queue size */
 #else
 #define AT_UART_RX_BUFFER_SIZE                      2048                    /**< uart rx buffer size */
