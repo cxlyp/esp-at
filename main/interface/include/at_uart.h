@@ -39,7 +39,7 @@
 #define AT_UART_PARITY_ODD                          UART_PARITY_ODD         /**< uart parity odd */
 
 #if defined(CONFIG_IDF_TARGET_ESP32C2)
-#define AT_UART_RX_BUFFER_SIZE                      4096                    /**< uart rx buffer size */
+#define AT_UART_RX_BUFFER_SIZE                      8192                    /**< uart rx buffer size */
 #define AT_UART_TX_BUFFER_SIZE                      2048                    /**< uart tx buffer size */
 #define AT_UART_QUEUE_SIZE                          15                      /**< uart queue size */
 #else
